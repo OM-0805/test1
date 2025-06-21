@@ -1,0 +1,278 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+a {
+    text-decoration: none;
+    font-family: "Rampart One", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #6470b0;
+
+}
+
+li {
+    list-style: none;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+/* .conteinar {
+    max-width: 900px;
+    margin: 0 auto;
+} */
+
+/* header */
+header {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #add8e6;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+header h1 {
+    margin: 12px;
+    font-family: "Rampart One", sans-serif;
+    font-weight: 600;
+    font-size: 2.6rem;
+    font-style: normal;
+    color: #6470b0;
+
+
+}
+
+header ul {
+    display: flex;
+}
+
+header li {
+    padding: 15px;
+}
+
+header li :hover {
+    /* background-color:#ffafb4;  */
+    /* font-size: large; */
+    padding: 2px;
+    /* /* border: solid 2px ; */
+    color: #faf7f7;
+    cursor: pointer;
+}
+
+
+/* main  */
+.top-conteinar {
+    display: flex;
+    margin: 70px auto 0 auto;
+    width: 80%;
+    height: 80vh;
+    position: relative;
+
+}
+
+.top-name {
+    font-family: "Rampart One", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 1.2rem;
+    color: #ffafb4;
+    text-align: center;
+    position: absolute;
+    top: 7%;
+    left: 0;
+
+}
+
+.photo {
+    width: 450px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.photo img {
+    width: 450px;
+    height: 300px;
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    object-fit: cover;
+    border-radius: 40px;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.photo img.current {
+    opacity: 1;
+}
+
+/*about  */
+.about {
+    font-family: "Rampart One", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #ffafb4;
+    font-size: 1.2rem;
+    padding: 60px;
+
+}
+
+.about h2 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.about-text {
+    display: flex;
+    justify-content: center;
+}
+
+.about-text li img {
+    width: 200px;
+    height: auto;
+    border: radius 40px;
+
+}
+
+.about-text button {
+    margin: 20px;
+    background-color: #add8e6;
+    font-family: "Rampart One", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    /* color: #ffafb4; */
+    color: #6470b0;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+}
+
+.about-text button :hover {
+    cursor: pointer;
+    color: white;
+    border: #6470b0;
+}
+
+.button-p {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+/* Desing */
+.design {
+    font-family: "Rampart One", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #ffafb4;
+    margin: 0;
+    padding: 60px;
+    text-align: justify;
+
+}
+
+.design h2 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.design ul {
+    display: flex;
+    justify-content: center;
+}
+
+.design ul li {
+    margin: 10px auto;
+}
+
+.design ul li p {
+    font-size: 1.8rem;
+}
+
+/* contact */
+.contact {
+    font-family: "Rampart One", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #ffafb4;
+    margin: 0;
+    padding: 0;
+    display: block;
+    text-align: justify;
+
+}
+
+.contact h2 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.contact img {
+    width: 350px;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    border-radius: 40px;
+}
+
+.contact-thanks {
+    text-align: center;
+    font-size: 2.3rem;
+    margin: 6px;
+}
+
+.contact h3 {
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.contact button {
+    background-color: #add8e6;
+    border-radius: 20px;
+    margin: 30px;
+    /* display: flex;
+justify-content: center; */
+}
+
+
+/* footer */
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #add8e6;
+}
+
+.footer-last {
+    display: flex;
+
+}
+
+.footer-last ul {
+    display: flex;
+}
+
+.footer-last ul li {
+    display: flex;
+    margin: 20px;
+}
+
+.footer-last ul .footer-last1 {
+    display: flex;
+}
+
+
+
+.footer-last ul .footer-last1 :hover {
+    /* font-size: large; */
+    padding: 2px;
+    /* /* border: solid 2px ; */
+    color: #faf7f7;
+    cursor: pointer;
+}
