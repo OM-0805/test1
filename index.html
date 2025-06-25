@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>my portfprio</title>
     <link rel="stylesheet" href="style.css">
+    <!--google fontsの読み込み  -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rampart+One&display=swap" rel="stylesheet">
@@ -24,6 +25,7 @@
             </ul>
         </div>
     </header>
+
     <main>
         <div class="top-conteinar">
             <div class="top-name">
@@ -35,7 +37,12 @@
                 <img src="img/rainbow_1280.jpg">
             </div>
         </div>
-
+        <div class="container_01">
+            <a href="#" class="scroll-down_01">
+                <div class="circle-text_01"></div>
+                <div class="arrow_01"></div>
+            </a>
+        </div>
         <section id="About">
             <div class="about">
                 <div>
@@ -56,14 +63,17 @@
                                     様々なデザインを一緒に作り上げて行きたいです。<br>
                                     よろしくお願いします。
                                     <br>
-                                    <div class="button-p">
+                                    <div class="button-style">
                                         <div>
-                                            <p>⇒</p>
+                                            <p>⇒<br>⇒<br>⇒
+                                            <p>
                                         </div>
                                         <div>
-                                            <button>
-                                                <p>詳しくはこちら</p>
-                                            </button>
+                                            <a href="about.html" target="_blank">
+                                                <button>
+                                                    <p>詳しくはこちら</p>
+                                                </button>
+                                            </a>
                                         </div>
                                     </div>
                                 </dd>
@@ -76,29 +86,45 @@
         <section id="Design">
             <div class="design">
                 <h2>---------Design---------</h2>
-                <ul>
-                    <li>
-                        <p>Portfolio</p>
-                    </li>
-                    <li><img src="img/himawari.icon.jpg" alt="青いひまわり"></li>
-                </ul>
+                <div class="design">
+                    <button class="slider-btn prev" aria-label="前へ">←</button>
+                    <div class="design-container">
+                        <div class="design-card">
+                            <img src="img/design1img.jpg" alt="デザイン１">
+                            <p>01 Portfolio</p>
+                            <p>▶ 自己紹介のportfolioを作成しました。</p>
+                        </div>
+                        <!-- <div class="design-card">
+                            <img src="img/design1img.jpg" alt="デザイン１">
+                            <p>02 Portfolio</p>
+                            <p>▶ 自己紹介のportfolioを作成しました。</p> -->
+                    </div>
+                </div>
+                <button class="slider-btn next" aria-label="次へ">→</button>
             </div>
+            <p class="design-link">▶ 制作物一覧</p>
         </section>
-        <section id="Contact">
-            <div class="contact">
-                <h2> ---------Contact---------</h2>
 
-                <img src="img/mimoza1920.jpg" alt="mimoza">
+        <section id="Contact">
+            <h2> ---------Contact--------</h2>
+            <div class="contact">
+                <div class="contact-box">
+                    <img src="img/mimoza1920.jpg" alt="mimoza">
+                </div>
                 <div class="contact-thanks">
                     <p>最後までご覧いただきありがとうございます！</p>
                 </div>
-                <h3>お名前、メールアドレス、問い合わせ内容を下記のメールアドレスへ<br>
-                    お気軽にお問い合わせください！</h3>
-                <button>
-                    <p>mmy.box.contact@gmail.com</p>
-                </button>
-                <a class="mail-btn" href="mailto:mmy.box.contact@gmail.com"></a>
-
+                <div class="contact-thanks-text">
+                    <p>
+                        お名前、メールアドレス、問い合わせ内容を下記のメールアドレスへ<br>
+                        お気軽にお問い合わせください！
+                    </p>
+                </div>
+                <a href="mailto:mmy.box.contact@gmail.com?subject=おおぬきみゆへのお問い合わせ&body=氏名、フリガナ、電話番号、お問い合わせ内容を記載ください。">
+                    <button>
+                        <p>mmy.box.contact@gmail.com</p>
+                    </button>
+                </a>
             </div>
         </section>
     </main>
