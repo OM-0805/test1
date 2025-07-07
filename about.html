@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><more-portfolio></title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/about.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -15,34 +16,49 @@
 
 <body>
     <header>
-        <h1>おおぬき　みゆのportfolio</h1>
-
+        <div id="top">
+            <h1>Portfolio</h1>
+        </div>
+        <div>
+            <ul>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Design">Design</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+        </div>
     </header>
     <main>
         <section id="me">
             <div class="my-name">
                 <div>
-                    <img src="img/me-1.jpg" alt="メイン">
+                    <img src="img/btn-img/img/me-1.jpg" alt="メイン">
                 </div>
                 <div>
                     <h3>おおぬき　みゆ</h3>
                     <p>2003年生まれ。茨城県出身。栃木県在住。高校卒業後、接客業へ就職。<br>
-                        たくさんの方々と関わり学んできました。</p>
+                        ホスピタリティ精神を学ぶとともに、たくさんの方々との関わりを経験してまいりました。</p>
 
                     <br>
                     <h3>趣味</h3>
                     <p>旅行。ディズニー</p>
                     <p>
                         周辺観光地、食べ歩きスポット、ロケーションにこだわってホテルを選ぶことが多いです。<br>
-                        ディズニーリゾートでは、食べ歩きメインで過ごすことが多いです。</p>
+                        日本全国めぐってみたいです！<br>
+                        ディズニーリゾートでは、食べ歩きメインで過ごすことが多いです。<br>
+                        世界観が素敵で定期的に訪れています！</p>
                     <br>
                     <h3>興味があること、好きなこと</h3>
                     <p> 美容に興味があります。<br>
                         接客業をしているため髪色や爪先等、制限されているが多いですが、<br>
                         まつ毛サロンに行くことは多いです。まつ毛が上がっているとかわいいはもちろん、<br>
                         気分も上がるんですよね。ほんとに素晴らしいです。<br>
-                        甘いものも大好きです。日頃のご褒美で楽しむことが多いです。</dd>
-                    </p>
+                        美容はとても奥深いです。キラキラした空間が特別で気持ちをリセットでき、<br>
+                        美しさの更新はもちろん、新しい自分にもなれる。<br>
+                        滞在時間が長いためちょっとしたコミュニケーションがとれたり、イメージや憧れを実現し<br>
+                        人を輝かせる手伝いをしてくれる場所だと思います。<br><br>
+                        他にも、甘いものが好きです。色合いや見た目もかわいくて、おいしいは視覚も味覚も幸せすぎます。<br>
+                        かわいいものは共有したくなりますよね。</dd>
+
                 </div>
             </div>
         </section>
@@ -50,46 +66,84 @@
         <section>
             <div class="personality">
                 <h2>私の性格</h2>
-                <div>
-                    <img src="img/botann1.jpg" alt="真面目">
-                    <p>真面目</p>
-                </div>
-                <div>
-                    <img src="img/pioni2.jpg" alt="人見知り">
-                <p>人見知り</p>
-                </div>
-                <div>
-                    <img src="img/himawari3.jpg" alt="明るい">
-                <p>明るい</p>
-                </div>
-                <div>
-                    <img src="img/ba-bera4.jpg" alt="好奇心">
-                <p>好奇心旺盛</p>
-                </div>
-                <div>
-                    <img src="img/mimoza5.jpg" alt="感受性">
-                <p>感受性豊か</p>
-                </div>
-                <div>
-                    <img src="img/tukusi6.jpg" alt="向上心">
-                <p>向上心</p>
+                <div class="personality-text">
+                    <div class="box-1">
+                    <div>
+                        <img src="img/btn-img/img/botann1.jpg" alt="真面目">
+                        <p>真面目</p>
+                    </div>
+                    <div>
+                        <img src="img/btn-img/img/pioni2.jpg" alt="人見知り">
+                        <p>人見知り</p>
+                    </div>
+                    </div>
+                    <div class="box-2">
+                    <div>
+                        <img src="img/btn-img/img/himawari3.jpg" alt="明るい">
+                        <p>明るい</p>
+                    </div>
+                    <div>
+                        <img src="img/btn-img/img/ga-bera.jpg" alt="好奇心">
+                        <p>好奇心旺盛</p>
+                    </div>
+                    </div>
+                    <div class="box-3">
+                    <div>
+                        <img src="img/btn-img/img/mimoza5.jpg" alt="感受性">
+                        <p>感受性豊か</p>
+                    </div>
+                    <div>
+                        <img src="img/btn-img/img/tukusi6.jpg" alt="向上心">
+                        <p>向上心</p>
+                    </div>
+                    </div>
                 </div>
             </div>
         </section>
         <section>
-            <div>
+            <div class="ican">
                 <h2>できること</h2>
-                <img>
-                <p>HTML.CSSを使ったHP作成</p>
-                <P>JavaScript習得中</P>
-                <!-- ボタンの式のスライド -->
-                <img>
-                <img>
-                <img>
+                <div class="ican-text">
+                    <div>
+                        <p>HTML.CSSを使ったHP作成</p>
+                        <img src="img/btn-img/img/html.jpg">
+                        <img src="img/btn-img/img/css.jpg">
+                    </div>
+                    <div>
+                        <P>JavaScript習得中</P>
+                        <img src="img/btn-img/img/java.jpg">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="thougth">
+                <h2>私の思い</h2>
+                <p>
+                    思いを受け取って依頼者様のターゲット層に興味を持っていただけるよう私自身が良さを実感して、できる限りの理解をして作成につなげたいと思っております。<br>
+                    イメージやご要望等、簡単にでも構いません。お話お聞かせください！
+                    印象に残る、思いのこもったサイトを一緒に作り上げていきましょう！<br>
+                    よろしくお願いいたします。
+                </p>
+            </div>
+            <div class="end-img">
+                <img src="img/btn-img/img/about-end.jpg">
             </div>
         </section>
 
     </main>
+    <footer>
+        <div class="footer-last">
+            <ul>
+                <div class="footer-last1">
+                    <li><a href="#Top">Top</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Design">Design</a></li>
+                </div>
+                <li><small>©2025 miyu oonuki</small></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 
 </html>

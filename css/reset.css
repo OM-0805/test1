@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+/* 初期設定 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+a {
+    text-decoration: none;
+    font-weight: 400;
+    color: black;
+}
+
+li {
+    list-style: none;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+/* header */
+header {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background-color: #add8e6;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+header h1 {
+    margin: 12px;
+    font-weight: 400;
+    font-size: 2.5rem;
+    font-style: normal;
+}
+
+header ul {
+    display: flex;
+}
+
+
+header ul li {
+    padding: 10px;
+}
+
+header li :hover {
+    padding: 2px;
+    /* color: #6470b0; */
+    color: #faf7f7;
+    cursor: pointer;
+    border-bottom: solid 1px white;
+}
+
+/* footer */
+footer {
+    gap: 60px;
+    margin: top 80px;
+    display: flex;
+    justify-content: center;
+    background-color: #add8e6;
+}
+
+.footer-last {
+    display: flex;
+
+}
+
+.footer-last ul {
+    display: flex;
+}
+
+.footer-last ul li {
+    display: flex;
+    margin: 18px;
+}
+
+.footer-last ul .footer-last1 {
+    display: flex;
+}
+
+
+
+.footer-last ul .footer-last1 :hover {
+    padding: 2px;
+    /* /* border: solid 2px ; */
+    color: #faf7f7;
+    cursor: pointer;
+}
+
+@media screen and (max-width:800px) {
+    header {
+        width: 100%;
+    }
+
+    header h1 {
+        font-size: 1.6rem;
+    }
+}
