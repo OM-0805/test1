@@ -48,7 +48,7 @@ h2 {
 }
 
 .personality {
-    margin: 120px;
+    margin: 140px;
     border: #cfebf4;
     box-shadow: 3px 3px 4px 4px #539cb5;
 
@@ -67,7 +67,7 @@ h2 {
 
 
 .ican {
-    margin: 120px;
+    margin: 140px;
     border: #cfebf4;
     box-shadow: 3px 3px 4px 4px #539cb5;
 }
@@ -87,10 +87,13 @@ h2 {
 }
 
 .thougth {
-    margin: 120px;
+    margin: 140px;
     border: #cfebf4;
     box-shadow: 3px 3px 4px 4px #539cb5;
-
+}
+.thougth p{
+    
+    justify-content: center;
 }
 
 .end-img img {
