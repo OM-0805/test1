@@ -15,12 +15,18 @@ body {
 
 a {
     text-decoration: none;
-    font-weight: 400;
+    font-family: "Kaisei Decol", serif;
+    font-weight: 500;
+    font-style: normal;
     color: black;
 }
 
 li {
     list-style: none;
+    font-family: "Kaisei Decol", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.4rem;
 }
 
 h2 {
@@ -28,11 +34,15 @@ h2 {
 }
 
 /* header */
+body {
+    background-color: #ffe4e1;
+}
+
 header {
     margin: 0;
     padding: 0;
     width: 100%;
-    background-color: #add8e6;
+    /* background-color: #add8e6; */
     display: flex;
     justify-content: space-between;
 
@@ -40,27 +50,31 @@ header {
 
 
 header h1 {
-    margin: 12px;
-    font-weight: 400;
-    font-size: 2.5rem;
+    margin: 15px;
+    font-family: "Kaisei Decol", serif;
+    font-weight: 500;
     font-style: normal;
+    font-size: 2.7rem;
 }
 
 header ul {
     display: flex;
+    margin: 25px;
+
 }
 
 
 header ul li {
-    padding: 10px;
+    padding: 12px;
+    background-color: #fff;
 }
+
 
 header li :hover {
     padding: 2px;
     /* color: #6470b0; */
-    color: #faf7f7;
     cursor: pointer;
-    border-bottom: solid 1px white;
+    border-bottom: solid 2px #eb999d;
 }
 
 /* footer */
@@ -69,7 +83,7 @@ footer {
     margin: top 80px;
     display: flex;
     justify-content: center;
-    background-color: #add8e6;
+
 }
 
 .footer-last {
@@ -79,6 +93,8 @@ footer {
 
 .footer-last ul {
     display: flex;
+    margin: 15px;
+    background-color: #fff;
 }
 
 .footer-last ul li {
@@ -99,7 +115,7 @@ footer {
     cursor: pointer;
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:450px) {
     header {
         width: 100%;
     }
@@ -107,4 +123,16 @@ footer {
     header h1 {
         font-size: 1.6rem;
     }
+
+    .footer-last1 {
+        display: flex;
+    }
+
+    .footer-last ul {
+        display: flex;
+        margin-left: 10%;
+        background-color: #fff;
+
+    }
+    
 }

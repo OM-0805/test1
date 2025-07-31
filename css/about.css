@@ -19,17 +19,12 @@ p {
 
 }
 
-h1 h2 h3 {
-    .kosugi-maru-regular {
-        font-family: "Kosugi Maru", sans-serif;
-        font-weight: 200;
-        font-size: 0.8rem;
-    }
-}
-
 h2 {
     font-weight: 200;
     text-align: center;
+    font-family: "Kaisei Decol", serif;
+    font-weight: 400;
+    font-style: normal;
 
 }
 
@@ -38,7 +33,7 @@ h2 {
 .my-name img {
     width: 300px;
     height: 400px;
-
+    border-radius: 20px;
 }
 
 .my-name {
@@ -47,38 +42,51 @@ h2 {
     margin: 50px;
 }
 
-.personality {
-    margin: 140px;
-    border: #cfebf4;
-    box-shadow: 3px 3px 4px 4px #539cb5;
-
-}
-
 .personality-text {
+    box-sizing: border-box;
+    border: 5px solid #ffb6c1;
+    cursor: pointer;
     display: flex;
     justify-content: center;
     gap: 50px;
+    font-family: "Kaisei Decol", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: auto 20% 10% 20%;
+    border-radius: 10px;
 }
 
 .personality img {
     width: 120px;
     height: 160px;
+    border-radius: 50%;
 }
 
 
 .ican {
-    margin: 140px;
-    border: #cfebf4;
-    box-shadow: 3px 3px 4px 4px #539cb5;
+    border: #ffb6c1;
+
 }
 
 .ican h2 {
     text-align: center;
+    font-family: "Kaisei Decol", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 .ican-text {
     display: flex;
     justify-content: space-around;
+    font-family: "Kaisei Decol", serif;
+    font-weight: 400;
+    font-style: normal;
+    box-sizing: border-box;
+    border: 5px solid #ffb6c1;
+    cursor: pointer;
+    margin: auto 20% 10% 20%;
+        border-radius: 10px;
+
 }
 
 .ican img {
@@ -86,25 +94,15 @@ h2 {
     margin: 20px;
 }
 
-.thougth {
-    margin: 140px;
-    border: #cfebf4;
-    box-shadow: 3px 3px 4px 4px #539cb5;
-}
-.thougth p{
-    
-    justify-content: center;
-}
 
 .end-img img {
     width: 40%;
-    padding: 100px auto;
     align-items: center;
 }
 
 
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:450px) {
 
     .my-name {
         display: block;
@@ -114,7 +112,6 @@ h2 {
     .personality {
         /* width: 100%; */
         box-shadow: none;
-        margin: 50px;
 
     }
 
@@ -122,6 +119,7 @@ h2 {
         width: 120px;
         display: block;
         justify-content: center;
+        border: none;
     }
 
     .box-1,
@@ -136,9 +134,12 @@ h2 {
         box-shadow: none;
         margin: 20px;
     }
+.ican-text{
+    border: none;
+    display: block;
 
-    .thougth {
-        margin: 20px;
-    }
-   
+}
+.ican-text img{
+    width: 150px;
+}
 }

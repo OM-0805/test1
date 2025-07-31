@@ -11,7 +11,7 @@
       images[currentIndex].classList.add("current");
 
       play();
-    },3000);
+    },4000);
   }
 
   const images = document.querySelectorAll(".photo img");
