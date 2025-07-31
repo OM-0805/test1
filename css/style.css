@@ -376,20 +376,17 @@
    font-size: 1.0rem;
  }
 
- /* contact */
- #Contact {
-   width: 100%;
-   text-align: center;
- }
-
- #Contact h2 {
-   text-align: center;
+.contact{
+  text-align: center;
+  margin: 20px;
+}
+ .Contact h2 {
+  display: block;
+ text-align: center;
    font-size: 2rem;
    font-family: "Kaisei Decol", serif;
    font-weight: 400;
    font-style: normal;
-   margin: 30px;
-
 
  }
 
@@ -495,10 +492,7 @@
    }
 
 
-   /* .circle-text_01{
-  width: 80px;
-  height: 80px;
- } */
+
   .about h2{
     display: flex;
     margin-left:10px;
@@ -542,8 +536,7 @@
 .design2 ul{
   display: inline;
 }
-}
-#Contact h2{
+.Contact h2{
   display: flex;
  margin: 10px;
 }
@@ -565,4 +558,4 @@
    .contact-thanks-text p {
      font-size: 0.8rem;
    }
- 
+  }
